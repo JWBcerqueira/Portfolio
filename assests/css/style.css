@@ -1,0 +1,55 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
+*{
+    font-family: 'Comic Neue', cursive !important;
+}
+
+.banner {
+
+    background-image: url(../img/gmi.png) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:70vh
+
+}
+
+.perfil{
+    border-radius: 50%;
+    margin-top: 150px;
+    margin-left: 100px;
+    height: 40rem;
+    border: 8px solid whitesmoke;
+    
+}
+
+
+
+@media (max-width: 576px) {
+    .banner{
+        background-position: right;
+        height: 100vh;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 992px) {
+
+
+}
+
+@media (max-width: 1200px) { 
+
+
+}
+
+@media (max-width: 1400px) { 
+
+
+ }
