@@ -1,3 +1,6 @@
+*{
+    font-family: 'PT Serif', serif;
+}
 .banner {
 
     background-image: url(../img/gmi.png) ;
@@ -11,8 +14,15 @@ h1{
     color: white;
     text-shadow: 4px 3px 3px rgba(0, 0, 0, 0.47);
 }
+
+span{
+    color: white;
+    font-size: 20px;
+}
+
 p{
-    
+    color: black;
+    font-size: 20px;
 }
 
 .perfil{
@@ -26,7 +36,6 @@ p{
     text-align: center;
     
 }
-
 
 
 @media (max-width: 576px) {
